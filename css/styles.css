@@ -2,12 +2,13 @@
     margin:0;
     padding:0;
   
+  
    
 }
 body{
   font-family: 'Montserrat', sans-serif;
-  margin:0;
-    padding:0;
+  margin:0!important;
+  padding:0;
   
 }
 
@@ -26,29 +27,30 @@ body{
     padding-bottom: 5%;
  
 }
-.title-heading{
-    font-family: 'Monserrat-Light' sans-serif;
+.title-head{
+    font-family:  'Monserrat-Light' sans-serif;
     padding:25% 10% 5%;
     text-align:center;
-    font-size: 4rem;
+    font-size: 3.5rem!important;
     font-weight:900;
     color:black;
     
 }
 .title-image{
     text-align: center;
+    background-image: url(../img/title-image.jpg);
+    background-size: cover; ;
   
-    height:400px;
-    width: 350px;
-    overflow: none;
+    height:100%;
+    width: 100%;
+    
     margin:auto !important;
     border-radius: 5%;
    
 }
 .container-fluid{
-    margin: 0;
-    
-    margin: 0 !important;
+   
+   padding:inherit 0;
   
 }
 .yellow{
@@ -56,8 +58,7 @@ body{
 }
 #qualification{
 background-color: #fff;
-padding: 0 !important;
-margin:0;
+
 
 }
 .size{
@@ -71,7 +72,7 @@ margin:0;
    
 .list-width{
     padding-top:10%;
-    width:60vw;
+    width:80%;
     margin: auto;
 }
 .skills-background{
@@ -80,8 +81,8 @@ margin:0;
     padding-bottom: 2rem;
 }
 .image1{
-    width:20rem;
-    height:20rem;
+    width:50%;
+    height:70%;
     border-radius: 100%;
     margin:auto;
     margin-top:2rem;
@@ -91,9 +92,13 @@ margin:0;
     margin:auto;
 }
 .space-info{
-    padding:2rem 10rem;
+    padding:1% 2%;
 }
 .contact-me{
     background-color: #e3b04b;
 
+}
+.body-margin{
+    margin:0!important;
+    padding:0;
 }
